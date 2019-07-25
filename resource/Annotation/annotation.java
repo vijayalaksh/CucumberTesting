@@ -9,7 +9,7 @@ import cucumber.annotation.en.Then;
 import cucumber.annotation.en.When; 
 
 public class annotation { 
-   WebDriver driver = null; 
+   WebDriver driver; 
    @Given("^I am on Facebook login page$") 
 	
    public void goToFacebook() 
